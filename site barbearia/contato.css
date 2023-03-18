@@ -1,0 +1,59 @@
+header{
+    background: #bbbbbb;
+    padding: 20px 0;
+   
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+main{
+    width: 400px;
+    margin: 7% 41%;
+    
+}
+.contato{
+   text-align: center;
+   display: grid;
+}
+.btn {
+    margin-top: 10px;
+    background-color: rgb(112, 112, 230);
+    border-radius:  5px;
+}
+
+footer{
+    text-align: center;
+    background:url("imagem/bg.jpg");
+    padding: 40px 0;
+}
+.copyright{
+    color: #fff;
+    font-size: 13px;
+    margin: 20px 0;
+}
